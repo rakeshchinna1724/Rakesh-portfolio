@@ -1,5 +1,5 @@
 <h2 align="center">
-  Portfolio Website - v2.0<br/>
+  Portfolio Website <br/>
   <a href="" target="_blank">Rakesh Akunuri</a>
 </h2>
 <div align="center">
@@ -14,7 +14,7 @@
 
 ## TL;DR
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Rakesh Akunuri](https://github.com/soumyajit4419/Rakesh-portfolio). Thanks!
+You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Rakesh Akunuri](https://github.com/rakeshchinna1724/Rakesh-portfolio). Thanks!
 
 ## Built With
 
