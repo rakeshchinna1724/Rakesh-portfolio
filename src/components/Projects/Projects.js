@@ -4,10 +4,10 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import editor from "../../Assets/Projects/click.png";
+import chatify from "../../Assets/Projects/sql-injection.png";
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import bitsOfCode from "../../Assets/Projects/xss-attack.png";
 
 function Projects() {
   return (
@@ -25,10 +25,10 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="sql-injection"
+              description="A simple Flask + SQLite web app intentionally designed to be vulnerable to SQL Injection attacks. Created for learning and demonstrating how SQL injection works and how to prevent it using secure coding practices."
+              ghLink="https://github.com/rakeshchinna1724/sql-injection-demo"
+              demoLink="https://sql-injection-demo-1.onrender.com"
             />
           </Col>
 
@@ -36,10 +36,10 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="xss-vulnerability"
+              description="This is a simple Flask web application built to demonstrate how Cross-Site Scripting (XSS) vulnerabilities work. It allows users to post comments — and intentionally does not sanitize inputs, making it a learning tool for ethical hacking and cybersecurity."
+              ghLink="https://github.com/rakeshchinna1724/xss-vulnerability-demo"
+              demoLink="https://xss-vulnerability-demo.onrender.com/"
             />
           </Col>
 
@@ -47,10 +47,10 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="clickjacking"
+              description="Clickjacking tricks users into clicking something they didn't intend to — often by hiding a sensitive page (like a bank button) inside an invisible iframe."
+              ghLink="https://github.com/rakeshchinna1724/clickjacking-demo"
+              demoLink="https://clickjacking-demo.onrender.com/"              
             />
           </Col>
 
