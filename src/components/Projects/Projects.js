@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
+import WebExploitTool from "../../Assets/Projects/WebExploitTool.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import click from "../../Assets/Projects/click.png";
 import sqlInjection from "../../Assets/Projects/sqlInjection.png";
@@ -56,12 +56,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={WebExploitTool}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="WebExploitTool"
+              description="A Python-based command-line tool to automate web vulnerability scanning for educational and ethical testing purposes. Supports multiple tests like SQL Injection, XSS, Clickjacking, Open Redirect, and Admin Panel discovery."
+              ghLink="https://github.com/rakeshchinna1724/web-exploit-tool"
+              demoLink="https://web-exploit-tool.onrender.com"
             />
           </Col>
 
