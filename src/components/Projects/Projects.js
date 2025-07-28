@@ -4,10 +4,10 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/click.png";
-import chatify from "../../Assets/Projects/sql-injection.png";
+import click from "../../Assets/Projects/click.png";
+import sqlInjection from "../../Assets/Projects/sqlInjection.png";
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/xss-attack.png";
+import xssAttack from "../../Assets/Projects/xssAttack.png";
 
 function Projects() {
   return (
@@ -23,7 +23,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={sqlInjection}
               isBlog={false}
               title="sql-injection"
               description="A simple Flask + SQLite web app intentionally designed to be vulnerable to SQL Injection attacks. Created for learning and demonstrating how SQL injection works and how to prevent it using secure coding practices."
@@ -34,7 +34,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={xssAttack}
               isBlog={false}
               title="xss-vulnerability"
               description="This is a simple Flask web application built to demonstrate how Cross-Site Scripting (XSS) vulnerabilities work. It allows users to post comments — and intentionally does not sanitize inputs, making it a learning tool for ethical hacking and cybersecurity."
@@ -45,7 +45,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={click}
               isBlog={false}
               title="clickjacking"
               description="Clickjacking tricks users into clicking something they didn't intend to — often by hiding a sensitive page (like a bank button) inside an invisible iframe."
